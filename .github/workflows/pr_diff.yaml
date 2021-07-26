@@ -1,7 +1,7 @@
 name: check aws ip ranges
 on:
   schedule:
-    - cron:  '0 1 8 * *' # every 20th 10:00 JST
+    - cron:  '0 1 * * SUN' # every Sunday 10:00 JST
   workflow_dispatch:
 # on: [push]
 
